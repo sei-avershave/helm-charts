@@ -122,6 +122,9 @@ migrations:
   Database__ConnectionString: ""
   env: {}
 
+## existingSecret references a secret already in k8s. The values are saved as files in `/app/conf`.
+existingSecret: ""
+
 # Config app settings with environment vars.
 # Those most likely needing values are listed. For others,
 # see https://github.com/cmu-sei/gameboard/blob/master/src/Gameboard.Api/appsettings.conf
